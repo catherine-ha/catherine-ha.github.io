@@ -75,12 +75,51 @@ span {
 
 #about {
   position: absolute;
-  top: 417px;
-  left: 56px;
+  top: 409px;
+  left: 54px;
   transform: rotate(-50deg);
-  height: 83px;
+  height: 84px;
 }
 
+#workw {
+  position: absolute;
+  top: 142px;
+  left: 520px;
+  transform: rotate(-50deg);
+  height: 84px;
+}
+
+#worko {
+  position: absolute;
+  top: 194px;
+  left: 584px;
+  transform: rotate(-50deg);
+  height: 84px;
+}
+
+#workr {
+  position: absolute;
+  top: 246px;
+  left: 645px;
+  transform: rotate(-50deg);
+  height: 84px;
+}
+
+#workk {
+  position: absolute;
+  top: 298px;
+  left: 707px;
+  transform: rotate(-50deg);
+  height: 84px;
+}
+
+#contact {
+  position: absolute;
+  top: 133px;
+  left: 844px;
+  transform: rotate(-50deg);
+  height: 92px;
+}
 
 
 
