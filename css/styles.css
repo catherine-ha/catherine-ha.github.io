@@ -1,0 +1,109 @@
+/*font-family: 'Monofett', cursive;*/
+
+html, body {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+span {
+	color: purple;
+  font-size: 120px;
+  font-family: 'Monofett', cursive;
+}
+
+.links{
+  /*margin-top: -10px;
+  margin-bottom: -10px;*/
+	/*color: white;*/
+  /*font-size: 100px;*/
+  font-family: 'Monofett', cursive;
+  /*transform: rotate(-50deg);*/
+  margin-top: -500px;
+}
+
+#text {
+  position: absolute;
+  top: -2621px;
+  left: 498px;
+  transform: rotate(-50deg);
+}
+
+#letters {
+  font-family: 'Monofett', cursive;
+  font-size: 120px;
+  line-height:81px;
+  /*margin-top: -360px;
+  margin-left: -380px;*/
+}
+
+
+#letters2 {
+  font-family: 'Monofett', cursive;
+  font-size: 88px;
+  line-height:60px;
+}
+
+#letters2 {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+
+}
+
+#contact-btn {
+  position: relative;
+  font-family: 'Monofett', cursive;
+  font-size: 100px;
+  transform: rotate(-50deg);
+  top: 10px;
+  background-color: #B0B0B0;
+  width: 400px;
+  height: 100px;
+}
+
+#home-btn a {
+  color: white;
+}
+
+#home {
+  position: absolute;
+  top: 67px;
+  left: 56px;
+  transform: rotate(-50deg);
+  height: 83px;
+}
+
+#about {
+  position: absolute;
+  top: 417px;
+  left: 56px;
+  transform: rotate(-50deg);
+  height: 83px;
+}
+
+
+
+
+
+
+#test {
+  font-family: 'Monofett', cursive;
+  font-size: 120px;
+  line-height:81px;
+  color: black;
+}
+
+/*#home{
+  margin-top: -550px;
+  margin-left: -780px;
+}
+#work{
+  margin-top: -80px;
+  margin-left: -800px;
+}
+#about{
+  margin-left: -780px;
+}
+#contact{
+  margin-left: -750px;
+}*/
