@@ -2,7 +2,7 @@
 
 html, body {
     max-width: 100%;
-    overflow: hidden;
+    verflow: hidden;
 }
 
 span {
@@ -122,6 +122,42 @@ span {
   transform: rotate(-50deg);
   height: 92px;
 }
+
+#work-info {
+  position: absolute;
+  top: 300px;
+  right: 490px;
+  text-align: center;
+  width: 1000px;
+  background-color: white;
+}
+
+#about-info {
+  position: absolute;
+  top: 160px;
+  right: -100px;
+  text-align: center;
+  background-color: white;
+  width: 500px;
+}
+
+#myphoto {
+  position: absolute;
+  top: 110px;
+  right: 600px;
+}
+
+#contact-info {
+  position: absolute;
+  top: 160px;
+  right: 50px;
+  text-align: center;
+  background-color: white;
+  width: 700px;
+}
+
+
+
 
 
 
