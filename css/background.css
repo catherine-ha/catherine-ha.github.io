@@ -1,3 +1,13 @@
+/*body {
+background-color: white;
+}
+
+* {
+background-color: #ababab;/*default*/
 body {
-     background-color: pink;
+transition: background-color 3s ease; /* future-proof */
+-webkit-transition: background-color 3s ease;
+-moz-transition: background-color 3s ease;
+-o-transition: background-color 3s ease;
+-ms-transition: background-color 3s ease;/* IE10+ only */
 }

@@ -16,7 +16,7 @@ $(document).ready(function() {
       text += "<br>";
       i += 4;
     }
-    
+
     randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
     randomLetter = String.fromCharCode(randomNum);
     text += randomLetter;
@@ -26,4 +26,16 @@ $(document).ready(function() {
   $("#letters").html(text);
 
 
+});
+
+function randomColor(){
+ r = Math.floor(Math.random() * (256));
+ g = Math.floor(Math.random() * (256));
+ b = Math.floor(Math.random() * (256));
+ jQuery('body').css('background-color','rgb('+r+','+g+','+b+')');
+}
+
+jQuery(document).ready(function(){
+ randomColor();
+ var t = setInterval(randomColor,3000);
 });
